@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(46, 45, 45);
+    color: #F5FFFA;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/61e8f7f3111c8613081bbe31/112f55a5-8a7b-4f0e-a649-cc3eb62b14b3/glovebeers+glove+logo.jpg?format=1500w"), url("https://images.squarespace-cdn.com/content/v1/61e8f7f3111c8613081bbe31/112f55a5-8a7b-4f0e-a649-cc3eb62b14b3/glovebeers+glove+logo.jpg?format=1500w");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right top, left top;
+    background-attachment: fixed, fixed;
+    background-size: 500px 1000px;
+}
+
+
+form {
+  margin: auto;
+
+}
+
+label {
+  margin: auto;
+  display: ;
+}
+
+fieldset {
+    padding: 2rem 0;
+    position: relative;
+  }
+
+   .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+
+   input[type="submit"] {
+     
+    display: block;
+    width: 1em;
+    margin: 6em auto;
+    height: 2em;
+    font-size: 1rem;
+    background-color: rgb(107, 106, 106);
+    border-color: white;
+    color: white;
+    min-width: 200px;
+    
+}
+
+  input[type='textarea'] {
+  display: block;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+textarea {
+  display: block;
+}

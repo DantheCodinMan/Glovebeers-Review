@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+   <center>
+<h1 id='title'>Glovebeers Review</h1>
+  </head>
+    <link rel="stylesheet" href="GlovebeersReview.css">
+<body>
+  <p id='description'>Fill out some information and tell us how we did</p>
+  <form id='survey-form'> 
+    
+    <label id='name-label'>Full Name: <input id='name' type='text' required placeholder='ex:John Smith'> </label>
+<br>
+  <label id='email-label'>Email: <input id='email' type='email' required placeholder='Example@gmail.com'> </label>
+<br>
+  <label id='number-label'>Rating:  <input id='number' type='number' min='1' max='10'placeholder='1-10'> </label>
+<br>
+  <label id='radio-label'> Would you recommend Glovebeers to a freind? </label>
+   Yes<input name='recommend' value='Yes' type='radio'>
+    No<input name='recommend' value='No' type='radio'>
+<br>
+  <label id='checkbox'> Whats your demographic (select all that apply): </label> 
+<br> 
+  Hockey Player<input name='beans' value='1' type='checkbox'>
+  Hockey Fan<input name='beans' value='2' type='checkbox'>
+  Glovebeers Fan<input name='beans' value='3' type='checkbox'>
+  Austin Zurliene Fan<input name='beans' value='4' type='checkbox'>
+<br>
+   Leave a comment. <textarea rows='8' cols='40'> </textarea>
+<br>
+   <label id='dropdown-label'>What item did you get  <select id='dropdown' placeholder='Select One'> </label>
+    <option value='a'> Select One </option>
+    <option value='b'> Crew Neck </option>
+    <option value='c'> Sweatshirt </option>
+    <option value='d'> T-Shirt </option>
+    <option value='e'> Beanie/Hat </option>
+<br>
+  <input id='submit' type='submit' value='Submit'>
+  </form>
+  </center>
+</body>
+</html>
